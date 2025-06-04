@@ -30,11 +30,20 @@ export const Home = (): JSX.Element => {
   // Data for case studies
   const caseStudies = [
     {
+      title: "An app for people to meet over coffee",
+      description:
+        "I and two of my friends built an app that helps you match with a person daily. It is gender agnostic. We have around 500 users currently(June, 2025) and are in talks with some cafes to collaborate with us for offers and group activities like ocffee making sessions.",
+      date: "Jan, 2025 - Present",
+      image: "/moc.png",
+      href: "https://www.meetovercoffee.in",
+    },
+    {
       title: "Zerodha Portfolio Viewer and MCP Trading Bot",
       description:
         "Built a Zerodha portfolio dashboard that fetches live holdings and market data using Kite APIs. Implemented MCP trading logic enabling bulk buy/sell based on LLM prompts from Calude. Users can visualize asset allocation and instantly execute trades. Focus was on seamless UX, high accuracy, and minimizing latency for real-time trading needs.",
       date: "May, 2025",
       image: "/zerodha.png",
+      href: "https://zerodha-dashboard-mu.vercel.app/",
     },
     {
       title: "AI Travel Suggestion Agent using LangGraph",
@@ -42,14 +51,15 @@ export const Home = (): JSX.Element => {
         "Developed an AI agent that suggests personalized travel plans using LangGraph’s multi-step reasoning framework. It gives you suggestions based on the user input. It helps you plan a day by day iternary for your next trip",
       date: "June, 2025",
       image: "/travel.png",
+      href: "https://travel-agent-ui.vercel.app/",
     },
   ];
 
   // Social media links
   const socialLinks = [
-    { text: "mrksht@mail.com" },
+    { text: "mrksht@gmail.com" },
     { text: "https://x.com/mRakshit_" },
-    { text: "behance.com/johndoe" },
+    // { text: "behance.com/johndoe" },
   ];
 
   return (
@@ -83,7 +93,7 @@ export const Home = (): JSX.Element => {
           </nav>
 
           <div className="flex gap-6">
-            <img
+            {/* <img
               className="w-[26px] h-[15px]"
               alt="Medium"
               src="/medium-4-1.svg"
@@ -92,7 +102,7 @@ export const Home = (): JSX.Element => {
               className="w-[26px] h-4"
               alt="Behance"
               src="/behance-2-1.svg"
-            />
+            /> */}
             <img
               className="w-[26px] h-[18px]"
               alt="Twitter"
@@ -129,7 +139,7 @@ export const Home = (): JSX.Element => {
 
           <div className="relative w-[514px] h-[526px]">
             <img
-              className="absolute w-[506px] h-[509px] top-[17px] left-2 rounded-full"
+              className="absolute w-[425px] h-[509px] top-[17px] left-2 rounded-full"
               alt="Profile"
               src="/profile.jpeg"
             />
@@ -212,20 +222,26 @@ export const Home = (): JSX.Element => {
           </h2>
 
           <p className="font-['Poppins',Helvetica] font-normal text-dark-blue text-2xl leading-[44px] max-w-[900px] mt-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
-            vulputate tristique quam felis. Id phasellus dui orci vulputate
-            consequat nulla proin. Id sit scelerisque neque, proin bibendum
-            diam.
+            Here’s a glimpse into some of the products I’ve built—from fintech
+            tools to AI-powered assistants. Each project reflects thoughtful
+            design, clean architecture, and a focus on solving real-world
+            problems with modern web technologies.
           </p>
 
           <div className="flex gap-[120px] mt-16">
             {caseStudies.map((study, index) => (
               <Card key={index} className="border-none shadow-none w-[560px]">
                 <CardContent className="p-0">
-                  <div
-                    className="w-full h-[400px] bg-cover bg-center"
-                    style={{ backgroundImage: `url(${study.image})` }}
-                  />
+                  <a
+                    href={study.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div
+                      className="w-full h-[400px] bg-cover bg-center rounded-[12px]"
+                      style={{ backgroundImage: `url(${study.image})` }}
+                    />
+                  </a>
                   <p className="font-['Poppins',Helvetica] font-normal italic text-dark-blue text-[15px] leading-[44px] mt-4">
                     {study.date}
                   </p>
@@ -249,7 +265,7 @@ export const Home = (): JSX.Element => {
             </h2>
 
             <img
-              className="w-[440px] h-[314px] mt-8 object-cover"
+              className="w-[440px] h-[314px] mt-8 object-cover rounded-[12px]"
               alt="Contact"
               src="/unsplash-2xht5d22y0i.svg"
             />
