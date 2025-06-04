@@ -114,7 +114,15 @@ export const Home = (): JSX.Element => {
               based in India.
             </p>
 
-            <Button className="mt-8 w-[158px] h-[61px] bg-yellow hover:bg-yellow/90 rounded-md border border-solid border-[#474306] text-dark-brown text-xl font-normal font-['Poppins',Helvetica]">
+            <Button
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/Resume_Rakshit.pdf";
+                link.download = "Resume_Rakshit.pdf";
+                link.click();
+              }}
+              className="mt-8 w-[158px] h-[61px] bg-yellow hover:bg-yellow/90 rounded-md border border-solid border-[#474306] text-dark-brown text-xl font-normal font-['Poppins',Helvetica]"
+            >
               Resume
             </Button>
           </div>
