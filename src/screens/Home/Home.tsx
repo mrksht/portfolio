@@ -122,7 +122,7 @@ export const Home = (): JSX.Element => {
         <section className="flex flex-col lg:flex-row justify-between items-center px-4 sm:px-8 lg:px-24 mt-8 sm:mt-16 lg:mt-32 gap-8 lg:gap-0">
           <div className="flex flex-col gap-2 sm:gap-4 text-center lg:text-left order-2 lg:order-1">
             <p className="font-['Poppins',Helvetica] font-medium text-dark-blue text-lg sm:text-xl lg:text-[28px]">
-              Hello, I&apos;m Sai Rakshit,
+              Hello, I&apos;m Rakshit,
             </p>
             <h2 className="font-['Poppins',Helvetica] font-extrabold text-dark-blue text-4xl sm:text-6xl lg:text-[100px] leading-tight lg:leading-[116px] max-w-full lg:max-w-[616px]">
               Software Engineer
