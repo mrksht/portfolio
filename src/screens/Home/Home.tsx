@@ -131,9 +131,9 @@ export const Home = (): JSX.Element => {
               based in India.
             </p>
 
-            <Button className="mt-4 sm:mt-6 lg:mt-8 w-32 h-12 sm:w-[158px] sm:h-[61px] bg-yellow hover:bg-yellow/90 rounded-md border border-solid border-[#474306] text-dark-brown text-lg sm:text-xl font-normal font-['Poppins',Helvetica] transition-colors self-center lg:self-start">
+            {/* <Button className="mt-4 sm:mt-6 lg:mt-8 w-32 h-12 sm:w-[158px] sm:h-[61px] bg-yellow hover:bg-yellow/90 rounded-md border border-solid border-[#474306] text-dark-brown text-lg sm:text-xl font-normal font-['Poppins',Helvetica] transition-colors self-center lg:self-start">
               Resume
-            </Button>
+            </Button> */}
           </div>
 
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[514px] lg:h-[526px] order-1 lg:order-2">
