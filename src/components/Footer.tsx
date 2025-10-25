@@ -1,18 +1,18 @@
-import { Heart } from 'lucide-react';
+import { Heart } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   const navLinks = [
-    { label: 'Home', id: 'hero' },
-    { label: 'About', id: 'about' },
-    { label: 'Experience', id: 'experience' },
-    { label: 'Projects', id: 'projects' },
-    { label: 'Contact', id: 'contact' },
+    { label: "Home", id: "hero" },
+    { label: "About", id: "about" },
+    { label: "Experience", id: "experience" },
+    { label: "Projects", id: "projects" },
+    { label: "Contact", id: "contact" },
   ];
 
   return (
@@ -21,14 +21,18 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="text-gray-400 text-sm">
-              © {currentYear} <span className="text-white font-semibold">Sai Rakshit</span>. All rights reserved.
+              © {currentYear}{" "}
+              <span className="text-white font-semibold">Sai Rakshit</span>. All
+              rights reserved.
             </p>
             <p className="text-gray-500 text-xs mt-1 flex items-center justify-center md:justify-start gap-1">
-              Built with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> using React & TypeScript
+              Built with <Heart className="w-3 h-3 text-red-500 fill-red-500" />{" "}
+              using React & TypeScript
             </p>
           </div>
 
-          <nav className="flex gap-8">
+          {/* Reduced gap on small screens */}
+          <nav className="flex gap-4 sm:gap-6 md:gap-8">
             {navLinks.map((link) => (
               <button
                 key={link.id}
