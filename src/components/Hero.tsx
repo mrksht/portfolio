@@ -24,7 +24,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.05 }}
-            className="flex justify-center mb-8"
+            className="flex justify-center mb-8 mt-8 sm:mt-0"
           >
             <img
               src="/profile.jpeg"
