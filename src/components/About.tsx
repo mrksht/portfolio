@@ -83,7 +83,7 @@ export const About = () => {
           <motion.div variants={itemVariants} className="mb-16">
             <Card className="bg-[#1a1a1a] border-gray-800 p-8 md:p-12">
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Hello, Internet - 👋 I’m a full-stack developer at Vistaprint,
+                Hello, Internet - 👋 I’m Rakshit, a full-stack developer at Vistaprint,
                 building things that (hopefully) make the web a little better.
                 On the side, I’m working on{" "}
                 <a
