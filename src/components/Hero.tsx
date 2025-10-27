@@ -82,7 +82,7 @@ export const Hero = () => {
               className="group bg-[#00BFA5] hover:bg-[#00BFA5]/90 text-black font-semibold px-8 py-6 text-base transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,191,165,0.4)]"
             >
               View My Work
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              {/* <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" /> */}
             </Button>
 
             <Button
