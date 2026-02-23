@@ -3,64 +3,6 @@ import { Project, Skill, SocialLink } from "../types/portfolio";
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Meet Over Coffee",
-    description:
-      "Platform to connect professionals for meaningful coffee meetups.",
-    demoUrl: "https://www.meetovercoffee.in",
-    featured: true,
-  },
-  {
-    id: "2",
-    title: "AI Code Reviewer",
-    description:
-      "Automated code review system using Gemini with GitHub and GitLab webhooks for internal tooling.",
-    githubUrl: "https://github.com/mrksht/ai-code-reviewer",
-    featured: true,
-  },
-  {
-    id: "3",
-    title: "Best Coffee Shops in your city",
-    description:
-      "A platform to find the Best Coffee Shops in your city and suggest the ones you know",
-    demoUrl: "https://www.bestcoffeeshopsincity.com/",
-    featured: true,
-  },
-  {
-    id: "4",
-    title: "Peak Growth Community",
-    description:
-      "Platform connecting startups and CXOs, powered by We Founders Circle.",
-    demoUrl: "https://network.peakgrowthstudio.com/signin",
-    featured: true,
-  },
-  {
-    id: "5",
-    title: "Zerodha Portfolio Viewer",
-    description:
-      "Tool to view and analyze Zerodha portfolios with real-time insights.",
-    demoUrl: "https://zerodha-dashboard-mu.vercel.app/login",
-    githubUrl: "https://github.com/mrksht/zerodha-dashboard",
-    featured: true,
-  },
-  {
-    id: "6",
-    title: "Travel Agent with Agentic AI",
-    description:
-      "AI-powered travel platform that automates bookings, recommendations, and itineraries.",
-    demoUrl: "https://travel-agent-ui.vercel.app/",
-    githubUrl: "https://github.com/mrksht/Travel-Agent---UI",
-    featured: true,
-  },
-  {
-    id: "7",
-    title: "MCP Server for Zerodha",
-    description:
-      "Backend server to automate buying and selling of stocks on Zerodha.",
-    featured: false,
-    githubUrl: "https://github.com/mrksht/zerodha-backend/commit/dda0fd423b11947fc32d33a73078019f4386d831",
-  },
-  {
-    id: "8",
     title: "WhatsApp Terminal",
     description:
       "A CLI tool to use WhatsApp right from your terminal. Published on npm as whatsapp-terminal.",
@@ -69,7 +11,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "9",
+    id: "2",
     title: "Assistant Axis – Anthropic",
     description:
       "An experiment and demo exploring Anthropic's research paper on Assistant Axis.",
@@ -77,12 +19,70 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "10",
+    id: "3",
     title: "OpenClaw Mini",
     description:
       "A mini clone of OpenClaw – a lightweight, open-source implementation.",
     githubUrl: "https://github.com/mrksht/openclaw-mini",
     featured: true,
+  },
+  {
+    id: "4",
+    title: "Meet Over Coffee",
+    description:
+      "Platform to connect professionals for meaningful coffee meetups.",
+    demoUrl: "https://www.meetovercoffee.in",
+    featured: true,
+  },
+  {
+    id: "5",
+    title: "AI Code Reviewer",
+    description:
+      "Automated code review system using Gemini with GitHub and GitLab webhooks for internal tooling.",
+    githubUrl: "https://github.com/mrksht/ai-code-reviewer",
+    featured: true,
+  },
+  {
+    id: "6",
+    title: "Best Coffee Shops in your city",
+    description:
+      "A platform to find the Best Coffee Shops in your city and suggest the ones you know",
+    demoUrl: "https://www.bestcoffeeshopsincity.com/",
+    featured: true,
+  },
+  {
+    id: "7",
+    title: "Peak Growth Community",
+    description:
+      "Platform connecting startups and CXOs, powered by We Founders Circle.",
+    demoUrl: "https://network.peakgrowthstudio.com/signin",
+    featured: true,
+  },
+  {
+    id: "8",
+    title: "Zerodha Portfolio Viewer",
+    description:
+      "Tool to view and analyze Zerodha portfolios with real-time insights.",
+    demoUrl: "https://zerodha-dashboard-mu.vercel.app/login",
+    githubUrl: "https://github.com/mrksht/zerodha-dashboard",
+    featured: true,
+  },
+  {
+    id: "9",
+    title: "Travel Agent with Agentic AI",
+    description:
+      "AI-powered travel platform that automates bookings, recommendations, and itineraries.",
+    demoUrl: "https://travel-agent-ui.vercel.app/",
+    githubUrl: "https://github.com/mrksht/Travel-Agent---UI",
+    featured: true,
+  },
+  {
+    id: "10",
+    title: "MCP Server for Zerodha",
+    description:
+      "Backend server to automate buying and selling of stocks on Zerodha.",
+    featured: false,
+    githubUrl: "https://github.com/mrksht/zerodha-backend/commit/dda0fd423b11947fc32d33a73078019f4386d831",
   },
 ];
 
