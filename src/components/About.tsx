@@ -81,40 +81,42 @@ export const About = () => {
           </motion.div>
 
           <motion.div variants={itemVariants} className="mb-16">
-            <Card className="bg-[#1a1a1a] border-gray-800 p-8 md:p-12">
-              <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Hello, Internet - I’m Rakshit 👋, a full-stack developer at Vistaprint,
-                building things that (hopefully) make the web a little better.
-                On the side, I’m working on{" "}
+            <Card className="bg-[#1a1a1a] border-gray-800 p-8 md:p-12 space-y-6">
+              <p className="text-gray-300 text-lg leading-relaxed">
+                Hello, Internet — I'm <span className="text-white font-semibold">Rakshit</span> 👋
+              </p>
+
+              <p className="text-gray-400 text-base leading-relaxed">
+                Full-stack developer at{" "}
+                <span className="text-white">Vistaprint</span>, building things
+                that (hopefully) make the web a little better.
+              </p>
+
+              <p className="text-gray-400 text-base leading-relaxed">
+                On the side, I'm working on{" "}
                 <a
                   href="https://meetovercoffee.in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#00BFA5] hover:underline"
+                  className="text-[#00BFA5] hover:underline font-medium"
                 >
                   MeetOverCoffee
                 </a>{" "}
-                - a small project around coffee, community, and meaningful
+                — a small project around coffee, community, and meaningful
                 conversations. I also take on freelance work because I love
                 bringing new ideas to life.
               </p>
-              <p className="text-gray-300 text-lg leading-relaxed">
-                Outside of code, you’ll probably find me scuba diving or
-                freediving somewhere quiet, playing cricket on weekends, or in
-                yet another café pretending it’s “research.” ☕ I’m mildly
-                obsessed with Formula 1, coffee culture, and building things
-                that connect people.
-              </p>
-              {/* <a
-                href="https://drive.google.com/your-resume-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="group bg-transparent border border-[#00BFA5] text-[#00BFA5] hover:bg-[#00BFA5] hover:text-black transition-all duration-300">
-                  <Download className="mr-2 w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
-                  View Resume
-                </Button>
-              </a> */}
+
+              <div className="border-t border-gray-700/50 pt-6">
+                <p className="text-gray-400 text-base leading-relaxed">
+                  Outside of code — scuba diving, freediving, weekend cricket,
+                  or in yet another café pretending it's "research" ☕
+                </p>
+                <p className="text-gray-500 text-sm mt-3 italic">
+                  Mildly obsessed with Formula 1, coffee culture, and building
+                  things that connect people.
+                </p>
+              </div>
             </Card>
           </motion.div>
 
