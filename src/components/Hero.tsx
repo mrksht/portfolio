@@ -100,11 +100,11 @@ export const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20"
       >
-        <div className="flex flex-col items-center gap-2 text-gray-600">
+        <div className="flex flex-col items-center gap-1 text-gray-600">
           <span className="text-xs uppercase tracking-wider">Scroll</span>
-          <div className="w-px h-12 bg-gradient-to-b from-gray-600 to-transparent" />
+          <div className="w-px h-8 bg-gradient-to-b from-gray-600 to-transparent" />
         </div>
       </motion.div>
     </section>
