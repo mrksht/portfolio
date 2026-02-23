@@ -18,6 +18,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Package: LucideIcons.Package,
   Cloud: LucideIcons.Cloud,
   Sparkles: LucideIcons.Sparkles,
+  Brain: LucideIcons.Brain,
+  Bot: LucideIcons.Bot,
+  RefreshCw: LucideIcons.RefreshCw,
 };
 
 const categoryColors: Record<
@@ -43,6 +46,11 @@ const categoryColors: Record<
     bg: "bg-pink-500/5",
     border: "border-pink-500/20",
     text: "text-pink-400",
+  },
+  ai: {
+    bg: "bg-purple-500/5",
+    border: "border-purple-500/20",
+    text: "text-purple-400",
   },
 };
 

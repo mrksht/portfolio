@@ -101,7 +101,7 @@ export const skills: Skill[] = [
   { name: "TypeScript", category: "frontend", icon: "Code2" },
   { name: "Tailwind CSS", category: "frontend", icon: "Palette" },
   { name: "Node.js", category: "backend", icon: "Server" },
-  { name: "Serverless", category: "backend", icon: "Layers" },
+  { name: "LLMs", category: "ai", icon: "Brain" },
   { name: "Git", category: "tools", icon: "GitBranch" },
   { name: "AWS", category: "tools", icon: "Cloud" },
   { name: "UI/UX Design", category: "design", icon: "Sparkles" },

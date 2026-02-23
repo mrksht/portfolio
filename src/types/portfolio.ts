@@ -10,7 +10,7 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  category: 'frontend' | 'backend' | 'tools' | 'design';
+  category: 'frontend' | 'backend' | 'tools' | 'design' | 'ai';
   icon: string;
 }
 
