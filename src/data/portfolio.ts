@@ -59,6 +59,31 @@ export const projects: Project[] = [
     featured: false,
     githubUrl: "https://github.com/mrksht/zerodha-backend/commit/dda0fd423b11947fc32d33a73078019f4386d831",
   },
+  {
+    id: "8",
+    title: "WhatsApp Terminal",
+    description:
+      "A CLI tool to use WhatsApp right from your terminal. Published on npm as whatsapp-terminal.",
+    githubUrl: "https://github.com/mrksht/whats-cli",
+    demoUrl: "https://www.npmjs.com/package/whatsapp-terminal",
+    featured: true,
+  },
+  {
+    id: "9",
+    title: "Assistant Axis – Anthropic",
+    description:
+      "An experiment and demo exploring Anthropic's research paper on Assistant Axis.",
+    githubUrl: "https://github.com/mrksht/assistant-axis-anthropic",
+    featured: true,
+  },
+  {
+    id: "10",
+    title: "OpenClaw Mini",
+    description:
+      "A mini clone of OpenClaw – a lightweight, open-source implementation.",
+    githubUrl: "https://github.com/mrksht/openclaw-mini",
+    featured: true,
+  },
 ];
 
 export const skills: Skill[] = [
