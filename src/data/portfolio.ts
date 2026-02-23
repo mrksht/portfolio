@@ -9,80 +9,90 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/mrksht/whats-cli",
     demoUrl: "https://www.npmjs.com/package/whatsapp-terminal",
     featured: true,
+    tags: ["npm", "CLI", "Node.js"],
   },
   {
     id: "2",
     title: "Assistant Axis – Anthropic",
     description:
-      "An experiment and demo exploring Anthropic's research paper on Assistant Axis.",
+      "An interactive demo exploring Anthropic's research paper on Assistant Axis — visualizing how AI assistants navigate trade-offs.",
     githubUrl: "https://github.com/mrksht/assistant-axis-anthropic",
     featured: true,
+    tags: ["AI", "Experiment"],
   },
   {
     id: "3",
     title: "OpenClaw Mini",
     description:
-      "A mini clone of OpenClaw – a lightweight, open-source implementation.",
+      "A lightweight open-source clone of OpenClaw — the AI-powered legal contract analyzer. Built as a learning experiment.",
     githubUrl: "https://github.com/mrksht/openclaw-mini",
     featured: true,
+    tags: ["AI", "Open Source"],
   },
   {
     id: "4",
     title: "Meet Over Coffee",
     description:
-      "Platform to connect professionals for meaningful coffee meetups.",
+      "Platform to connect professionals for meaningful coffee meetups — built end-to-end from design to deployment.",
     demoUrl: "https://www.meetovercoffee.in",
     featured: true,
+    tags: ["Fullstack", "Product"],
   },
   {
     id: "5",
     title: "AI Code Reviewer",
     description:
-      "Automated code review system using Gemini with GitHub and GitLab webhooks for internal tooling.",
+      "Automated code review system powered by Gemini, triggered via GitHub and GitLab webhooks for internal tooling.",
     githubUrl: "https://github.com/mrksht/ai-code-reviewer",
     featured: true,
+    tags: ["AI", "DevTools"],
   },
   {
     id: "6",
-    title: "Best Coffee Shops in your city",
+    title: "Best Coffee Shops",
     description:
-      "A platform to find the Best Coffee Shops in your city and suggest the ones you know",
+      "Discover and suggest the best coffee shops in your city — a community-driven platform for coffee lovers.",
     demoUrl: "https://www.bestcoffeeshopsincity.com/",
-    featured: true,
+    featured: false,
+    tags: ["Fullstack", "Community"],
   },
   {
     id: "7",
     title: "Peak Growth Community",
     description:
-      "Platform connecting startups and CXOs, powered by We Founders Circle.",
+      "Networking platform connecting startups and CXOs, built for We Founders Circle.",
     demoUrl: "https://network.peakgrowthstudio.com/signin",
-    featured: true,
+    featured: false,
+    tags: ["Freelance", "React"],
   },
   {
     id: "8",
     title: "Zerodha Portfolio Viewer",
     description:
-      "Tool to view and analyze Zerodha portfolios with real-time insights.",
+      "Dashboard to view and analyze Zerodha stock portfolios with real-time insights.",
     demoUrl: "https://zerodha-dashboard-mu.vercel.app/login",
     githubUrl: "https://github.com/mrksht/zerodha-dashboard",
-    featured: true,
+    featured: false,
+    tags: ["Fullstack", "Finance"],
   },
   {
     id: "9",
     title: "Travel Agent with Agentic AI",
     description:
-      "AI-powered travel platform that automates bookings, recommendations, and itineraries.",
+      "AI-powered travel platform using agentic workflows to automate bookings, recommendations, and itinerary generation.",
     demoUrl: "https://travel-agent-ui.vercel.app/",
     githubUrl: "https://github.com/mrksht/Travel-Agent---UI",
-    featured: true,
+    featured: false,
+    tags: ["AI", "Agentic", "Fullstack"],
   },
   {
     id: "10",
     title: "MCP Server for Zerodha",
     description:
-      "Backend server to automate buying and selling of stocks on Zerodha.",
+      "Backend server to automate buying and selling of stocks on Zerodha via MCP protocol.",
     featured: false,
-    githubUrl: "https://github.com/mrksht/zerodha-backend/commit/dda0fd423b11947fc32d33a73078019f4386d831",
+    githubUrl: "https://github.com/mrksht/zerodha-backend",
+    tags: ["Backend", "Finance"],
   },
 ];
 

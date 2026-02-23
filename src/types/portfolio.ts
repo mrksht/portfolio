@@ -5,6 +5,7 @@ export interface Project {
   demoUrl?: string;
   githubUrl?: string;
   featured: boolean;
+  tags?: string[];
 }
 
 export interface Skill {
