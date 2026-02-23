@@ -27,8 +27,13 @@ export const Hero = () => {
             className="flex justify-center mb-8 mt-8 sm:mt-0"
           >
             <img
-              src="/profile.jpeg"
-              alt="Your Name"
+              src="/profile-320.jpeg"
+              srcSet="/profile-320.jpeg 1x, /profile-640.jpeg 2x"
+              alt="Rakshit"
+              width={160}
+              height={160}
+              fetchPriority="high"
+              decoding="async"
               className="w-40 h-40 rounded-full object-cover border-2 border-[#00BFA5]/30 shadow-lg"
             />
           </motion.div>
